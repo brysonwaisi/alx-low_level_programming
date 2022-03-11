@@ -11,13 +11,14 @@
 int main(void)
 
 {
-	int t;
+	int t = 0;
 
-	for (t = '0'; t <= '9'; t++)
+	while (t < 10)
 	{
-		putchar(t);
-		putchar('\n');
+		putchar(48 + t);
+		t++;
 	}
+		putchar('\n');
 
 		return (0);
 
