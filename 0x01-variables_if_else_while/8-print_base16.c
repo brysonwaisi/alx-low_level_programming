@@ -12,20 +12,17 @@
 int main(void)
 
 {
-	char t = '0';
+	int t;
+	char c;
 
-	while (t <= '9')
+	for (t = '0'; t <= '9'; t++)
 	{
 		putchar(t);
-		t++;
 	}
 
-	char c = 'a';
-
-	while (c <= 'f')
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 
 	putchar('\n');
