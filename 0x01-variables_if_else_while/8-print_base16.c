@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -20,12 +20,12 @@ int main(void)
 		t++;
 	}
 
-	char x = 'a';
+	char c = 'a';
 
-	while (x <= 'f')
+	while (c <= 'f')
 	{
-		putchar(x);
-		x++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
