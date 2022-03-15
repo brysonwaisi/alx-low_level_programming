@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 
 /**
  * main - Entry point
@@ -11,6 +14,7 @@
 int main(void)
 
 {
+	_putchar("_");
 	_putchar("p");
 	_putchar("u");
 	_putchar("t");
