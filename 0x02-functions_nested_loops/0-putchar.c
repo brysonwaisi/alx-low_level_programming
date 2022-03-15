@@ -1,11 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-
+#include <unistd.h>
 
 /**
- * File:0-putchar.c
- *
  * main - Entry point
  *
  * Description: prints _putchar, followed by a new line
@@ -14,17 +11,13 @@
  */
 
 int main(void)
-
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
+	char word[9] = "_putchar\n";
+	int i;
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(word[i]);
+	}
 
 	return (0);
 }
