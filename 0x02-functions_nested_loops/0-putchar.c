@@ -11,10 +11,10 @@
 
 int main(void)
 {
-	char b[10] = "_putchar";
+	char b[9] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 8)
 	{
 		_putchar(b[i]);
 		i++;
