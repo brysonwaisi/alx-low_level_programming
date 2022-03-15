@@ -1,24 +1,26 @@
 #include "main.h"
 #include <stdio.h>
-#include <unistd.h>
 
 /**
  * main - Entry point
  *
  * Description: prints _putchar, followed by a new line
  *
- * Return:0
+ * Return: 0
  */
 
 int main(void)
 {
-	char word[9] = "_putchar\n";
-	int i;
-	for (i = 0; i < 9; i++)
+	char b[10] = "_putchar";
+	int i = 0;
+
+	while (i < 9)
 	{
-		_putchar(word[i]);
+		_putchar(b[i]);
+		i++;
 	}
+
+	_putchar('\n');
 
 	return (0);
 }
-
