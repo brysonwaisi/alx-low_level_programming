@@ -94,7 +94,7 @@ Function Prototypes:
     * Does not print anything if the hash table is `NULL`.
 
 * **6. >>> del ht**
-  * [6-hash_table_delete.c](./6-hasb_table_delete.c): C function that deletes a
+  * [6-hash_table_delete.c](./6-hash_table_delete.c): C function that deletes a
   `hash_table_t` hash table.
 
 * **7. $ht['Betty'] = 'Holberton'**
